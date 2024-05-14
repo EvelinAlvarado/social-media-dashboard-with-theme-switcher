@@ -22,7 +22,7 @@ export const Header = () => {
   }, [darkMode]);
 
   return (
-    <header className="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue h-[235px] rounded-b-[20px] pt-8 px-6">
+    <header className="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue h-[235px] rounded-b-[20px] pt-8 px-6 mb-[980px]">
       <h1 className="text-Very-Dark-Blue dark:text-Very-Pale-Blue text-2xl font-bold mb-1 ">
         Social Media Dashboard
       </h1>

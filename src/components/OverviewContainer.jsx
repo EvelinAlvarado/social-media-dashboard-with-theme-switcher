@@ -1,7 +1,7 @@
 import data from "../../data/data.json";
-import { OverviewCard } from "./OverviewCard";
+import { OverviewCard, OverviewTodayCard } from "./OverviewCard";
 
-const convertAudienceToK = (number) => {
+const convertNumberToK = (number) => {
   if (number % 1000 === 0) {
     return `${number / 1000}k`;
   } else {
@@ -17,10 +17,29 @@ export const OverviewContainer = () => {
         <OverviewCard
           key={object.id}
           user={object.user}
-          audience={convertAudienceToK(object.audience)}
+          audience={convertNumberToK(object.audience)}
           audienceType={object.audienceType}
           today={object.today}
           network={object.network}
+          isUp={object.isUp}
+        />
+      ))}
+    </section>
+  );
+};
+
+// console.log(data["overview-today"]);
+export const OverviewTodayContainer = () => {
+  return (
+    <section>
+      <h1>Overview - Today</h1>
+      {data["overview-today"].map((object) => (
+        <OverviewTodayCard
+          key={object.id}
+          network={object.network}
+          statsType={object.statsType}
+          stats={convertNumberToK(object.stats)}
+          percentage={object.percentage}
           isUp={object.isUp}
         />
       ))}

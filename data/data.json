@@ -88,7 +88,7 @@
     },
     {
       "id": "ot-007",
-      "network": "YouTube",
+      "network": "Youtube",
       "statsType": "Likes",
       "stats": 107,
       "percentage": 19,
@@ -96,7 +96,7 @@
     },
     {
       "id": "ot-008",
-      "network": "YouTube",
+      "network": "Youtube",
       "statsType": "Total Views",
       "stats": 1407,
       "percentage": 12,
