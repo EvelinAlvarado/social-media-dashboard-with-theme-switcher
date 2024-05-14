@@ -28,13 +28,6 @@ export const OverviewCard = ({
   network,
   isUp,
 }) => {
-  const convertAudienceToK = () => {
-    if (audience % 1000 === 0) {
-      return `${audience / 1000}k`;
-    } else {
-      return audience;
-    }
-  };
   return (
     <article className="bg-Light-Grayish-Blue w-[326px] h-[216px] mb-10 rounded-[5px] mx-auto overflow-hidden text-center hover:brightness-95 cursor-pointer dark:bg-Dark-Desaturated-Blue hover:dark:brightness-125">
       {/* overflow-hidden: Lo que sobresale, se esconde (para redondear el article) */}
@@ -50,7 +43,7 @@ export const OverviewCard = ({
         <p className="text-xs text-Dark-Grayish-Blue font-bold">{user}</p>
       </div>
       <p className="text-[56px] font-bold text-Very-Dark-Blue dark:text-white">
-        {convertAudienceToK()}
+        {audience}
       </p>
       <p className="uppercase tracking-[5px] text-Dark-Grayish-Blue text-xs mb-6 ">
         {audienceType}
