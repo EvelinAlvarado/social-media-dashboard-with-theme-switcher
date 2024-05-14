@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -10,11 +11,7 @@ export default {
 
         Facebook: "hsl(208, 92%, 53%)",
         Twitter: "hsl(203, 89%, 53%)",
-        // Instagram: "linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)",
         YouTube: "hsl(348, 97%, 39%)",
-
-        /* Dark theme */
-        // Toggle: "linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)",
 
         /* Light Theme */
         Toggle: "hsl(230, 22%, 74%)",
@@ -28,8 +25,21 @@ export default {
 
         /* Light Theme */
         "Very-Pale-Blue": "hsl(225, 100%, 98%)",
-        "Light Grayish Blue": "hsl(227, 47%, 96%)",
+        "Light-Grayish-Blue": "hsl(227, 47%, 96%)",
         "Dark-Grayish-Blue": "hsl(228, 12%, 44%)",
+      },
+      /* To create gradient color must create an objet backgroundImage */
+      backgroundImage: {
+        /* Dark theme */
+        "Toggle-Gradient":
+          "linear-gradient(to right, hsl(210, 78%, 56%),hsl(146, 68%, 55%))",
+
+        /* Primary gradient colors */
+        "Instagram-Gradient":
+          "linear-gradient(to right,hsl(37, 97%, 70%),hsl(329, 70%, 58%))",
+      },
+      fontFamily: {
+        Inter: ["Inter"],
       },
     },
   },
