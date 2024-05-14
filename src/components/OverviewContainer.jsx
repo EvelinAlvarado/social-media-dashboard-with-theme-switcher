@@ -35,7 +35,7 @@ export const OverviewTodayContainer = () => {
       <h2 className="text-2xl font-bold mb-[27px] text-Dark-Grayish-Blue ml-8 dark:text-white">
         Overview - Today
       </h2>
-      <div className="flex flex flex-wrap">
+      <div className="flex flex-wrap">
         {data["overview-today"].map((object) => (
           <OverviewTodayCard
             key={object.id}
