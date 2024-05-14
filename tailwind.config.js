@@ -11,7 +11,7 @@ export default {
 
         Facebook: "hsl(208, 92%, 53%)",
         Twitter: "hsl(203, 89%, 53%)",
-        YouTube: "hsl(348, 97%, 39%)",
+        Youtube: "hsl(348, 97%, 39%)",
 
         /* Light Theme */
         Toggle: "hsl(230, 22%, 74%)",
