@@ -12,7 +12,7 @@ const convertNumberToK = (number) => {
 // console.log(data.overview);
 export const OverviewContainer = () => {
   return (
-    <section className="max-w-[1440px] flex flex-wrap gap-[30px] place-content-center absolute top-[191px] left-0 right-0 mx-auto xl:px-4 ">
+    <section className="max-w-[1440px] flex flex-wrap gap-[30px] place-content-center absolute top-[191px] md:top-[130px] left-0 right-0 mx-auto xl:px-4 ">
       {data.overview.map((object) => (
         <OverviewCard
           key={object.id}

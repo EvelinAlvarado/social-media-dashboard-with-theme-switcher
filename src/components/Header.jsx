@@ -22,7 +22,7 @@ export const Header = () => {
   }, [darkMode]);
 
   return (
-    <header className="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1050px] md:mb-[480px] xl:mb-[200px] max-w-[1440px] mx-auto">
+    <header className="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1050px] md:mb-[420px] xl:mb-[140px] max-w-[1440px] mx-auto">
       <div className="md:flex md:justify-between max-w-[1140] mx-auto">
         <div>
           <h1 className="text-Very-Dark-Blue dark:text-Very-Pale-Blue text-2xl font-bold mb-1 ">
