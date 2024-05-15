@@ -4,7 +4,6 @@ import instagramLogo from "../assets/images/icon-instagram.svg";
 import youtubeLogo from "../assets/images/icon-youtube.svg";
 import iconUp from "../assets/images/icon-up.svg";
 import iconDown from "../assets/images/icon-down.svg";
-import { data } from "autoprefixer";
 
 const networksLogos = {
   Facebook: facebookLogo,
