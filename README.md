@@ -29,9 +29,11 @@ This project is a social media dashboard that allows users to view their followe
 ## Screenshots
 
 <div align="center" >
-  <img src="public\img\screenshot1.jpg" width="80%" />
+  <img src="src/assets/images/MacBook Pro-1715759148262.jpeg" width="80%" />
   <br/><br/>
-  <img src="public\img\screenshot2.jpg" width="80%" /> 
+  <img src="src/assets/images/iPad-1715759148271.jpeg" width="40%" /> 
+   <br/><br/>
+  <img src="src/assets/images/iPhone 12 Pro-1715759148278.jpeg" width="20%" /> 
 </div>
 
 ## Additional Information
